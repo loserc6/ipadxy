@@ -1,0 +1,27 @@
+﻿<Window x:Class="Wechat.Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wechat.Demo"
+        mc:Ignorable="d"
+        Title="DEMO" Height="370" Width="525" ResizeMode="NoResize">
+    <Grid>
+        <Border BorderThickness="1" BorderBrush="#FF000000" VerticalAlignment="Top" Height="204" Width="204" Margin="10,60,284.6,0">
+            <Image Name="ImgQrLogin" HorizontalAlignment="Left" VerticalAlignment="Top" Height="200" Margin="1.2,1.2,0,0" Width="200"/>
+        </Border>
+        <Button Name="BtnLogin" Content="登录微信" HorizontalAlignment="Left" Margin="237,234,0,0" VerticalAlignment="Top" Width="264" Height="30" Click="Button_Click"/>
+        <Label Content="62数据：" HorizontalAlignment="Left" Margin="228,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.252,0.547"/>
+        <CheckBox Name="Ckb62Data" Content="使用62登录" HorizontalAlignment="Left" Margin="237,206,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.321,2.181"/>
+        <TextBox Name="Txt62Data" HorizontalAlignment="Left" Height="48" Margin="237,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="264"/>
+        <Label Content="帐户：" HorizontalAlignment="Left" Margin="228,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.052,-6.116"/>
+        <Label Content="密码：" HorizontalAlignment="Left" Margin="228,88,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TxtUserName" HorizontalAlignment="Left" Height="23" Margin="274,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="227"/>
+        <TextBox Name="TxtPassowrd" HorizontalAlignment="Left" Height="23" Margin="275,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="226"/>
+        <StatusBar HorizontalAlignment="Left" Height="24" Margin="14,279,0,0" VerticalAlignment="Top" Width="487">
+            <StatusBarItem>
+                <TextBlock Name="StatusBar" Text="未登录" />
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

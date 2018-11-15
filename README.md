@@ -1,6 +1,8 @@
 # 微信IPAD协议DEMO（C#）
 微信ipad协议dll，C#版本调用源码，ipad登陆微信协议机器人
 
+![登录图](https://raw.githubusercontent.com/sinhol/ipadxy/master/pic1.png)
+
 目前主要功能：
 > * 扫码登录，62数据登录等
 > * 获取用户信息，用户相关信息（获取、搜索、添加、修改等）
